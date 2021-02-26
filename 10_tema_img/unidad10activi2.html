@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <head>
+            <title>Multiple video sources</title>
+    </head>
+    <body>
+        <video poster="./audio/images/puppy.jpg" width="400" height="320"preload controls loop>
+        <source src="./audio/video/puppy.mp4" type="video/mp4;codecs="avcl.42E0LE,mp4a.40.2/>
+        <source src="./audio/video/puppy.webm" type="video/webm;codecs="vp8, vorbis/>
+    </video>
+    <p>un video de un cachorro jugando en la nieve</p>
+    <p>la etiqueta video: para especificar la ubicacion del archivo que se reproducira, puede usar el elemento
+        (source) dentro del elemento (video) (esto debe reemplazar el atributo scr en la etiqueta
+        (video); de apertura.)Tambien puede utilizar varios elements (source) para especificar que el video disponible en 
+        diferentes formatos. (Debido a un error en el ipad,debe proporcionar el video MP4 como el primer formato. De lo contrario
+        puede que no inicie)</p>
+    <p> <b>src:</b>este atributo especifica la ruta de acceso al video. </p>
+    <p><b>type:</b> se debe utilizar este atributo para decirle al navegador que formato es el video.
+        de lo contrario, descargara la parte del video para ver si se puede reproducir el archivo
+        que tomara tiempo y ancho de banda.</p>
+        <p><b>codecs:</b> el codec que se uso para codificar el video se suministra dentro del atributo type.
+        tenga en cuenta que es uso de comillas simples, asi de comillas dobles en el atributo de tipo, 
+    cuando se suministra. </p>
+    </body>
+</html>

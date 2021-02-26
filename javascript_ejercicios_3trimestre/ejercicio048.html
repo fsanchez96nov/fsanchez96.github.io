@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Ejemplo 048 </title>
+    <script language = "javascript" type="text/javascript">
+        var tecIng = prompt ("Presiona uan tecla: ");
+        var typNum = Number (tecIng);
+        if (!(isNaN (typNum))) {
+            var res = typeof (typNum);
+        }else{
+            var res = typeof(tecIng);
+        }
+        switch(res) {
+            case 'number':
+            est = "un numero";
+            break;
+            case 'string': 
+            est = "Un caracter"
+            break;
+            default:
+            console.log ('deafult');
+            break;
+        }
+        alert('La tecla presionada es: ' +  est);
+    </script>
+    </head>
+    <body>
+        <p>Parrafo ejercicio 048</p>
+        <p>Programa en javascript para revisar si un valor 
+            ingresado es un numero o un caracter</p>
+    </body>
+    </html>
+    

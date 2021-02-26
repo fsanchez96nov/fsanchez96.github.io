@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejemplo Personalizado 21-40</title>
+        <b> <script language = "javascript" type="text/javascript">
+                document.write("fabian sanchez 2024375-g2");
+                alert ("Ejemplo Personalizado 21-40")
+                    var n = 0;
+                    var r = "";
+
+                        n = prompt("Ingrese un numero: ");
+
+                        if (n > 20){
+                            r = "Mayor de 20";
+                        }
+                        if (n < 20){
+                            r = "Menor de 20";
+                        }
+                        if (n == 20){
+                            r = "Igual a 20";
+                        }
+                    alert ( "El resultado es: " +r)
+
+                    var a1, b2, c3, mayor, inter, menor;
+                        a1 = prompt ("Ingrese primer valor: ");
+                        b2 = prompt ("Ingrese segundo valor: ");
+                        c3 = prompt ("Ingrese tercer valor: ");
+                        a1 = parseInt(a1);
+                        b2 = parseInt(b2);
+                        c3 = parseInt(c3);
+                            if( a1 > b2 && a1 > c3){
+                                mayor = a1;                                
+                            }else{
+                                if(b2 > a1 && b2 > c3){
+                                    mayor = b2
+                                }else{
+                                    mayor = c3;
+                                }
+                            }
+                            if (a1 < b2 && a1 < c3){
+                                menor = a1;
+                            }else{
+                                if (b2 < a1 && b2 < c3){
+                                    menor = b2;
+                                }else{
+                                    menor = c3;
+                                }
+                            }
+                            int = (a1 + b2 + c3) - ( mayor + menor);
+                            alert ("El numero mayor es: " + mayor +
+                            "\nEl numero intermedio es: " + inter +
+                            "\nEl numero menor es: " + menor);
+                        
+                        var h, m, s;   
+                            h =prompt('Hora: ');
+                            h =parseInt(h);
+                            m =prompt('minuto: ');
+                            m =parseInt(m);
+                            s =prompt('segundo: ');
+                            s =parseInt(s);
+                            s += 0;
+                                if(s == 60){
+                                    s = 0;
+                                      m += 1;
+                                      if(m == 60){
+                                         m = 0;
+                                            h += 1;
+                                            if (h == 24){
+                                                h = 0;
+                                            } 
+                                      }
+                                }
+                                alert('Hora: ' + h +
+                                '\nMinutos: ' + m +
+                                "\nSegundos: " + s);
+        </script>
+    </head>  
+    <body>
+        <p><h1>Ejemplo Personalizado 21-40</h1></p>
+        <p>En este Ejercicio trabajamos ejemplos mencionados entre la actividad
+            21 y  la actividad 40, ejercicios de comparacion, opraciones metematicas
+            utilizado el <em>if</em>, <em>parseFloat</em>, <em>parseInt</em></p>
+
+    </body>      
+</html>

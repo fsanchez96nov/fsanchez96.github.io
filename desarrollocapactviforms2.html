@@ -1,0 +1,80 @@
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario actividad 2</title>
+    </head>
+    <body>
+        <form action="./index.html">
+        <fieldset>
+            <legend> <em>Datos de contacto</em></legend>
+            <label><em>Email:</em><br/><input type="text" name="Email"/></label><br/>
+            <label> <em>Telefono Movil</em> <br/><input type="text" name="Mobile"/></label><br/>
+    </fieldset>
+    </form>
+    <form action="./index.html">
+    <label><strong>Edad:</strong> <input type="text" name="age"/></label><br/>
+   <strong><em>Genero:</em></strong>
+    <input id="female" type="radio" name="gender" value="f">
+<label for="Female">Mujer</label>
+<input id="male" type="radio" name="gender" value="m">
+<label for="male">Hombre</label>
+</form>
+<p>Participa en el siguiente ejercicio: <br/>
+A continuacion, vamos a planificar una cena con tu persona favorita, elige las opciones <br/>
+Como tipo de comida, bebida, fecha de la cita, etc.</p>
+<form action="./index.html">
+<fieldset>
+    <h2>Pregunta:</h2>
+    <p>Cual de los siguientes platos te gustaria comer en este momento?</p>
+    <select name="foods" size="5" multiple="multiple">
+        <option value="pasta" selected="selected">Pasta</option>
+        <option value="arroz chino" selected="selected">Arroz Chino</option>
+        <option value="sushi" selected="selected">Sushi</option>
+        <option value="hamburguesa" selected="selected">Hamburguesa</option>
+        <option value="Perro Caliente" selected="selected">Perro Caliente</option>
+        </select>
+        
+</fieldset>
+</form>
+<form action="./index.html">
+<h2>Acompañado de la siguiente bebida:</h2> 
+<input type="radio" name="bebida" value="Coca Cola" checked="checked"/> Coca Cola
+<input type="radio" name="bebida" value="Poker o Light"/>Poker o Light
+<input type="radio" name="bebida" value="limonada"/> limonada
+<input type="radio" name="bebida" value="Pepsi"/> Pepsi
+<input type="radio" name="bebida" value="Vino"/> Vino
+</form>
+<fieldset>
+<form action="./index.html">
+<h4>Agenda la fecha de tu cita:</h4>
+<label for="usename">Fecha de salida:</label>
+<input type="date" name="depart"/>
+<input type="submit" value="submit"/>
+</fieldset>
+</form>
+<form action="./index.html">
+<p>Que Medio de transporte quieres utilizar: <br/>
+<input type="checkbox" name="service" value="Didi" checked="checked" /> Didi
+<input type="checkbox" name="service" value="taxi"/> taxi
+<input type="checkbox" name="service" value="transmilenio"/> transmilenio
+</p>
+</form>
+<fieldset>
+<form action="./index.html" method="POST">
+<h4>sube el MP3, de la cancion que te gustaria escuchar en la cena</h4>
+<input type="file" name="user-song"/> <br/>
+<input type="submit" value="Upload"/>
+</fieldset>
+</form>
+<form action="./index.html">
+<p>Te fue de utilidad?</p>
+comenta:
+<textarea name="Comments" id="" cols="30" rows="10"> :)...</textarea>
+<p><input type="submit" value="enviar"/></p>
+</form>
+<fieldset>
+<img src="./imgespresentacion/memesonriendo.jpg" alt="meme sonriendo"/>
+<h4>Gracias......</h4>
+</fieldset>
+</body>
+</html>
